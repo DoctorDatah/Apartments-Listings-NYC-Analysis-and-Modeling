@@ -19,13 +19,15 @@ Well, I decided to scrap web for gathering relevant data. Most websites (like li
 
 Anyways, if its on the web then its accessible either easily or a hard way. Moreover,I found a real estate website renthop.com who's design is simple enough for web scraping. 
 
-Data Scraped:
+
+##### Data Scraped:
 - Url 
 - Address
 - Neighborhood 
 - Number of Beds
 - Number of Baths 
-- Rent
+- Rent in dollars
 
-Website Inference:
-![Kiku](Images/renthopes.com.png)
+##### Website Inference:
+
+![renthopes.com](Images/renthopes.com.png)
