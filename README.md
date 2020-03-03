@@ -12,10 +12,11 @@ Affordable and convenient accommodation is a basic requirement to live in States
 ### Data Source
 
 My first concern was how can I get the data for such analysis?
-Well, I decided to scrap web for gathering relevant data. Most websites (like list below) have strict rules for web scarping. Obviously, because of the reason that they don't others to take competitive advantage from data.  
--	streeteasy.com/rentals <br>
--	cityrealty.com/nyc/apartments-for-rent <br>
--	zillow.com/new-york-ny/rentals<br>
+Well, I decided to scrap web for gathering relevant data. Most websites (like listed below) have strict rules for web scarping. Obviously, because of the reason that they don't others to take competitive advantage from data.  
+-	streeteasy.com <br>
+-	cityrealty.com <br>
+-	zillow.com<br>
+
 Anyways, if its on the web then its accessible either easily or a hard way. Moreover,I found a real estate website renthop.com who's design is simple enough for web scraping. 
 
 Data Scraped:
