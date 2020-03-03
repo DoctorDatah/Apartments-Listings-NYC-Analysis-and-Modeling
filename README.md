@@ -26,3 +26,6 @@ Data Scraped:
 - Number of Beds
 - Number of Baths 
 - Rent
+
+Website Inference:
+![Kiku](Images/renthopes.com.png)
