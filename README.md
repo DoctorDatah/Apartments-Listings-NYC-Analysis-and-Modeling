@@ -42,7 +42,7 @@ More Data
 ![renthopes.com](Images/renthopes.com.png)
 
 #### Outliers:
-Most of the Observations are between $2000 to $4200 range. <br>
+Most of the Observations are between $2000 to $4200 range. Average rent by zip:<br>
 ![Outliers](Images/boxenplot_outliers_zip_avg.png)
 
 #### Map of average rent in differnt areas:
