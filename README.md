@@ -6,18 +6,18 @@
 
 For international students it is hard to manage their finances is USA. Especially, when your parents are not super rich and your are not allowed to work more then 20 hours a week. 
 
-Affordable and convenient accommodation is a basic requirement to live in States. As my university is in NJ (Drew University, Madison NJ) and I planing to do summer internship in New York City. It would require me to move to NYC, as commuting from NJ would be a time consuming and less effective. Obviously, am a student and I don't want to spend too much on accommodation. Hence, I decided to support my decision for apartment hunt with data analysis and machine learning molding. 
+Affordable and convenient accommodation is a basic requirement to live in States. As my university is in NJ (Drew University, Madison NJ) and I planing to do summer internship in New York City. It would require me to move to NYC, as commuting from NJ would be a time consuming and less effective. Obviously,I am a student and I don't want to spend too much on accommodation. Hence, I decided to support my decision for apartment hunt with data analysis and machine learning modeling. 
 
 
 ### Data Source
 
 My first concern was how can I get the data for such analysis?
-Well, I decided to scrap web for gathering relevant data. Most websites (like listed below) have strict rules for web scarping. Obviously, because of the reason that they don't others to take competitive advantage from data.  
+Well, I decided to scrap web for gathering relevant data. Most websites (like listed below) have strict rules for web scarping. Obviously, because of the reason that they don't want others to take competitive advantage from their data.  
 -	streeteasy.com <br>
 -	cityrealty.com <br>
 -	zillow.com<br>
 
-Many popular websites have their APIs avalible. <br>
+Many popular websites have their APIs available. <br>
 - [zillow.com](zillow.com/howto/api/faq.htm)<br>
 It impose some limitations like: access to only historical data and limited number of API calls. <br>
 - [realtor.com](https://www.realtor.com/) <br>
@@ -42,7 +42,7 @@ More Data
 ![renthopes.com](Images/renthopes.com.png)
 
 #### Outliers:
-Most of the Observations are between $2000 to $4200 range. Average rent by zip:<br>
+Most of the Observations are between $2000 to $4200 range on average.<br>
 ![Outliers](Images/boxenplot_outliers_zip_avg.png)
 
 #### Map of average rent in differnt areas:
@@ -59,7 +59,7 @@ Let's spcecifilly Map on **Manhattan** (neighborhoods):
 
 Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhattan.
 
-*BLACK SHADED REGIONS MEANS WE DON'T PLOT ON THAT OR WE DON'T HAVE RELATED DATA.*
+*Black shaded regions means we either don't plot on that areas or we don't have related data.*
 
 
 
