@@ -17,7 +17,13 @@ Well, I decided to scrap web for gathering relevant data. Most websites (like li
 -	cityrealty.com <br>
 -	zillow.com<br>
 
-Anyways, if its on the web then its accessible either easily or a hard way. Moreover,I found a real estate website renthop.com who's design is simple enough for web scraping. 
+Many popular websites have their APIs avalible. <br>
+- [zillow.com](zillow.com/howto/api/faq.htm)<br>
+It impose some limitations like: access to only historical data and limited number of API calls. <br>
+- [realtor.com](https://www.realtor.com/) <br>
+Also a good source for the data with different paid plans.
+
+Anyways, if its on the web then its accessible either easily or a hard way. Moreover,I found a real estate website [renthop.com](renthop.com) who's design is simple enough for web scraping without violating their TOS (Term of services). 
 
 
 ##### Data Scraped:
@@ -28,6 +34,33 @@ Anyways, if its on the web then its accessible either easily or a hard way. More
 - Number of Baths 
 - Rent in dollars
 
+More Data
+- Zip codes of areas are acquired using **Google maps API** calls. 
+
 ##### Website Inference:
 
 ![renthopes.com](Images/renthopes.com.png)
+
+#### Outliers:
+Most of the Observations are between $2000 to $4200 range. <br>
+![Outliers](Images/boxenplot_outliers_zip_avg.png)
+
+#### Map of average rent in differnt areas:
+
+Areas with average above 6000 are excluded from the map. As they are outliers and more expensive then usual.
+
+![NYC Map](Images/map1.png)
+
+We can observe that Manhattan is Expensive then other boroughs.
+
+Let's spcecifilly Map on **Manhattan** (neighborhoods):
+
+![Manhattan Map](Images/manhattan_map1.png)
+
+Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhattan.
+
+*BLACK SHADED REGIONS MEANS WE DON'T PLOT ON THAT OR WE DON'T HAVE RELATED DATA.*
+
+
+
+
