@@ -50,22 +50,23 @@ More Data
 - Zip codes of areas are acquired using **Google maps API** calls. 
 
 ## Initial Data Prepossessing
-*Flexes* have large number of missing values. In this case it means the apartment have no flex at all. In addition, we can see a couple of missing addresses. Which could be most probably because of a few scrapping anomalies, Assuming that website would allow to post a listing without adding the address first. 
+*Flexes* have large number of missing values. In this case it means the apartment have no flex at all. In addition, we can see a couple of missing addresses. Which could be most probably because of a few scrapping anomalies, Assuming that website would not allow to post a listing without adding the address first. 
 
 <img src="images/data-info1.jpg" width=40%>
 
 After getting related zip codes from Google Maps API. We lost many instances because we are unable to get corresponding zip codes. If we look at the interface of website we can find that the reason behind is that we are not parsing individual listing pages, we are parsing  pages which only consists of listings overview. And when the address is larger in length then it is squeezed down like *2728, upper east side, .... NY*. 
 
-<img src="images/data-info2.jpg" width=40%>
+<img src="images/data-info2.jpg" width=40%> 
 
 **Remedy:** Improve data capturing process. 
 For now we should proceed, even though it could add some hidden bias in the model. However, we can come up with the base setup, which can be improved in further iterations.
  
 
 ## Exploratory Data Analysis 
-
+#### Top 10 places with most listings 
+<img src="images/most_listings_top_10.jpg" width=50%>
 #### Outliers:
-Most of the Observations are between $2000 to $4200 range on average.<br>
+Based on mean rent on Zip-code, most of the Observations are between $2000 to $4200 range on average. With less number of listings on extreme.<br>
 ![Outliers](images/boxenplot_outliers_zip_avg.png)
 
 #### Map of average rent in differnt areas:
