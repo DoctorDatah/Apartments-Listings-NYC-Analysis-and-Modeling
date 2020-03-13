@@ -65,19 +65,22 @@ For now we should proceed, even though it could add some hidden bias in the mode
 ## Exploratory Data Analysis 
 #### Top 10 places with most listings 
 <img src="images/most_listings_top_10.jpg" width=50%>
+
+Manhattan has most listing.
+
 #### Outliers:
 Based on mean rent on Zip-code, most of the Observations are between $2000 to $4200 range on average. With less number of listings on extreme.<br>
 ![Outliers](images/boxenplot_outliers_zip_avg.png)
 
 #### Map of average rent in differnt areas:
 
-Areas with average above 6000 are excluded from the map. As they are outliers and more expensive then usual.
+Areas with average above 6000 are excluded (only for maps). As they are outliers and more expensive then usual. They makes map a little difficult to interpret affordable apartments, as the color legend stretches to the limit of these oultilers.
 
 ![NYC Map](images/map1.png)
 
 We can observe that Manhattan is Expensive then other boroughs.
 
-Let's spcecifilly Map on **Manhattan** (neighborhoods):
+#### **Manhattan** (neighborhoods):
 
 ![Manhattan Map](images/manhattan_map1.png)
 
