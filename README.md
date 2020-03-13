@@ -2,7 +2,7 @@
 
 **IN PROGRESS!** 
 
-<img src="Images/apartment-search.png" width=100%>
+<img src="images/apartment-search.png" width=100%>
 
 
 # Find somewhere to lay your head in the city that never sleeps. Make better decision for affordable apartment hunt in NYC with data. 
@@ -36,7 +36,7 @@ Do you wonder is scrapping legal to do so? Cases in which its illegal: Read [her
 
 #### Website Inference
 
-![renthopes.com](Images/renthopes.com.png)
+![renthopes.com](images/renthopes.com.png)
 
 ## Data
 - Url 
@@ -66,19 +66,19 @@ For now we should proceed, even though it could add some hidden bias in the mode
 
 #### Outliers:
 Most of the Observations are between $2000 to $4200 range on average.<br>
-![Outliers](Images/boxenplot_outliers_zip_avg.png)
+![Outliers](images/boxenplot_outliers_zip_avg.png)
 
 #### Map of average rent in differnt areas:
 
 Areas with average above 6000 are excluded from the map. As they are outliers and more expensive then usual.
 
-![NYC Map](Images/map1.png)
+![NYC Map](images/map1.png)
 
 We can observe that Manhattan is Expensive then other boroughs.
 
 Let's spcecifilly Map on **Manhattan** (neighborhoods):
 
-![Manhattan Map](Images/manhattan_map1.png)
+![Manhattan Map](images/manhattan_map1.png)
 
 Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhattan.
 
