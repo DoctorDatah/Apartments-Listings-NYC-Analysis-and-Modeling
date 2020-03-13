@@ -2,7 +2,7 @@
 
 **IN PROGRESS!** 
 
-<img src="images/apartment-search.jpg">
+<img src="images/apartment-search.png">
 
 
 # Find somewhere to lay your head in the city that never sleeps. Make better decision for affordable apartment hunt in NYC with data. 
