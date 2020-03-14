@@ -19,7 +19,6 @@ def fix_beds_feature(listings):
 
             # Contering to Numeric
             listings['beds'] = pd.to_numeric(listings['beds'])
-            listings['beds'].unique()
 
         return listings
     except:
@@ -39,8 +38,8 @@ def fix_baths_feature(listings):
             
             # Contering to Numeric
             listings['baths'] = pd.to_numeric(listings['baths'])
-            listings['baths'].unique()
-        return listings
+
+            return listings
     except:
         print('Something went wrong')
         
@@ -78,10 +77,10 @@ def fix_rent_feature(listings):
     Finally, converts to integer data type
     """
     try:
-        if(listings['flexs'].dtype != 'int64'):
-            # Removindg  '$' and ',' from strings and convert to int
-            listings['rent'] = listings['rent'].map(lambda x: str(x).replace('$','').replace(',','')).astype('int')  
-            
+#         if(listings['flexs'].dtype != 'int64'):
+        # Removindg  '$' and ',' from strings and convert to int
+        listings['rent'] = listings['rent'].map(lambda x: str(x).replace('$','').replace(',','')).astype('int')  
+
         return listings
     except:
         print('Something went wrong')
