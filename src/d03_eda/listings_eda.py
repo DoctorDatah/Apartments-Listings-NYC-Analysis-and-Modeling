@@ -34,3 +34,7 @@ def add_map_properties(cols,dataset,the_map):
                 ).add_to(the_map) 
     except:
         print('Something went wrong')
+        
+def percentage_difference(new,old):
+    diff =  (( new - old ) / old )* 100
+    return print (str(round(diff,1)) + '%' )

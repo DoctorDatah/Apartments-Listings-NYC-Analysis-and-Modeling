@@ -104,5 +104,10 @@ Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhatta
 
 *Black shaded regions means we either don't plot on that areas or we don't have related data.*
 
+## Percentage difference of rent (On Average)
+- Upper Manhattan 3.7% Cheaper then Upper East Side
+- Midtown is 3.9% Expensive then Upper East Side
+- Down down in 4.2% Cheaper then Mid town on Average
+- Upper Manhattan 4.2% cheaper then Down Town Manhattan
 
 **IN PROGRESS!** 
