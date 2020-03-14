@@ -5,7 +5,7 @@
 <img src="images/apartment-search.png" width=100%>
 
 
-# Find somewhere to lay your head in the city that never sleeps. Make better decision for affordable apartment hunt in NYC with data. 
+# Find somewhere to lay your head in the city that never sleeps. Make better decision for affordable apartment hunt in NYC based on data. 
 
 ## Introduction
 
