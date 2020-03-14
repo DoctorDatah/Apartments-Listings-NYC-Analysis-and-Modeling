@@ -66,13 +66,29 @@ For now we should proceed, even though it could add some hidden bias in the mode
 #### Top 10 places with most listings 
 <img src="images/most_listings_top_10.jpg" width=50%>
 
-Manhattan has most listing.
+Hell's kitchen, Midtown Manhattan has listings are in Manhattan
 
-#### Outliers:
-Based on mean rent on Zip-code, most of the Observations are between $2000 to $4200 range on average. With less number of listings on extreme.<br>
+#### Mean rent at the neighborhoods
+Bronx and queens have some neibourhoods with cheap retal. However, inquires from a few Newyorkers and seaching online I found these areas have high crime rate. 
+
+Furhtermoere, places like *Theater District, Midtown Manhattan* and *Hudson Square, SoHo, Downtown Manhattan* are very expensive.
+
+<img src="images/mean-rent-at-nhoods.jpg" width=50%>
+
+Some places are super expensive as their Mean rent exceeds $6000
+
+<img src="images/boxenplot_nhood_avg.png" width=50%>
+
+**Neighborhoods with mean rent more then $6000**
+
+<img src="images/nhood_expensive.jpg" width=50%>
+
+
+#### Rental By Zip Codes
+Rent ranges from $785  to $10353. Mostly rent is between $2000 to $4200 range on average. With very few number of listings on extreme.<br>
 ![Outliers](images/boxenplot_outliers_zip_avg.png)
 
-#### Map of average rent in differnt areas:
+#### Map (Average rent):
 
 Areas with average above 6000 are excluded (only for maps). As they are outliers and more expensive then usual. They makes map a little difficult to interpret affordable apartments, as the color legend stretches to the limit of these oultilers.
 
