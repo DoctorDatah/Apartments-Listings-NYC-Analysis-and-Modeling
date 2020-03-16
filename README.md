@@ -54,7 +54,7 @@ More Data
 
 <img src="images/data-info1.jpg" width=40%>
 
-After getting related zip codes from Google Maps API. We lost many instances because we are unable to get corresponding zip codes. If we look at the interface of website we can find that the reason behind is that we are not parsing individual listing pages, we are parsing  pages which only consists of listings overview. And when the address is larger in length then it is squeezed down like *2728, upper east side, .... NY*. 
+After getting related zip codes from Google Maps API. We lost many instances because we are unable to get corresponding zip codes. If we look at the interface of website we can find that the reason behind is that we are not parsing individual listing pages, we are parsing  pages which only consists of listings overview. And when the address is larger in length then it is squeezed down like "*2728, upper east side, .... NY*". 
 
 <img src="images/data-info2.jpg" width=40%> 
 
@@ -66,12 +66,12 @@ For now we should proceed, even though it could add some hidden bias in the mode
 #### Top 10 places with most listings 
 <img src="images/most_listings_top_10.jpg" width=50%>
 
-Hell's kitchen, Midtown Manhattan has listings are in Manhattan
+Hell's kitchen, Midtown Manhattan has most listings are in Manhattan
 
 #### Mean rent at the neighborhoods
-Bronx and queens have some neibourhoods with cheap retal. However, inquires from a few Newyorkers and seaching online I found these areas have high crime rate. 
+Bronx and queens have some neighborhoods with cheap rental. However, inquires from a few Newyorkers and searching online I found these areas have high crime rate. 
 
-Furhtermoere, places like *Theater District, Midtown Manhattan* and *Hudson Square, SoHo, Downtown Manhattan* are very expensive.
+Furthermore, places like *Theater District, Midtown Manhattan* and *Hudson Square, SoHo, Downtown Manhattan* are very expensive.
 
 <img src="images/mean-rent-at-nhoods.jpg" width=50%>
 
@@ -90,7 +90,7 @@ Rent ranges from $785  to $10353. Mostly rent is between $2000 to $4200 range on
 
 #### Map (Average rent):
 
-Areas with average above 6000 are excluded (only for maps). As they are outliers and more expensive then usual. They makes map a little difficult to interpret affordable apartments, as the color legend stretches to the limit of these oultilers.
+Areas with average above $6000 are excluded (only for maps). As they are outliers and more expensive then usual. They makes map a little difficult to interpret affordable apartments, as the color legend stretches to the limit of these oultilers.
 
 ![NYC Map](images/map1.png)
 
