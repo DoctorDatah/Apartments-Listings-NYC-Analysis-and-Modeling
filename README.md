@@ -154,14 +154,13 @@ Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhatta
 #### Testing 
 Ensemble model with lasso, decision tree, SVM, Random forest. Perfroms better from all. With Testing RMSE of $2288. 
 
+## Conclusion 
+
 So far, we have modeled the relationship between the Zip-codes and number of bedrooms, baths and flexes with rental price. We had minimal features to correctly examine the complex real-estate valuation. Low RMSE of the model could possibly because of omitted variable bias i.e. there are dozens of other feature that are significant in rental price but are not present in data.
 
 However, Fortunately, however, if we were to add more features and data to the model then we can use the exact same framework to expand our analysis.
 
 
-At this point, we have only examined the relationship between the ZIP code, bedrooms, and rental price. And while our model had some explanatory benefit, we had a minimal dataset and far too few features to adequately examine the complex world of real estate valuation.
-
-Fortunately, however, if we were to add more data and features to the model, we could use the exact same framework to expand our analysis.
 
 Some possible future extensions could be utilizing the data from various APIs for restaurants or bars available in the area, walk-ability, transportation proximity measures. That could be signification driver of prices in the areas. 
 
