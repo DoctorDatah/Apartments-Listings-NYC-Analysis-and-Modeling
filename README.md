@@ -162,9 +162,10 @@ So far, we have modeled the relationship between the Zip-codes and number of bed
 
 However, Fortunately, if we were to add more features and data to the model then we can use the exact same framework to expand our analysis.
 
-For my decision, I am looking forward to Hoboken City neighborhoods. As they are not as expensive as NYC, easily commutable and nice.
-
 Some possible future extensions could be utilizing the data from various APIs for restaurants or bars available in the area, walk-ability, transportation proximity measures. That could be signification driver of prices in the areas. 
 
+For my decision, I am looking forward to Hoboken City neighborhoods. As they are not as expensive as NYC, easily commutable and nice.
+
+For latest analysis, all notebooks can be re-executed to fetch the latest data from web and providing up to date insights. 
 
 **END** 
