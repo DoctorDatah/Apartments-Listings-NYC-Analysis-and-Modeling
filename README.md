@@ -128,9 +128,11 @@ Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhatta
 
 ## Modeling 
 
-|  f | d |  sdf | df  |  df |
+|  Model | Parameters | RMSE  |  Feature |  Details |
 |---|---|---|---|---|
-|  d |   d|   |   |   |
+| LassoReg  |   alpha=0.1|2344  |All Ordinal Categories Except Zip   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 
