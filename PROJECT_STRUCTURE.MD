@@ -14,7 +14,6 @@ The directory structure of project:
 │
 ├── _docs              <- docs used in report
 │
-│
 ├── notebooks          <- Jupyter notebooks. 
 │
 ├── images             <- Generated graphics and figures to be used in reporting

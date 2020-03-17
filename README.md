@@ -15,6 +15,8 @@ Affordable and convenient accommodation is a basic requirement to live in States
 
 For understating of NYC neighborhoods: Read [here](https://www.moneyunder30.com/renting-in-nyc).
 
+## Project Structure 
+The directory structure of project [here](https://github.com/DoctorDatah/NYC-Apartments-Listings-Analysis-and-Modeling/blob/master/PROJECT_STRUCTURE.MD).
 
 ## Data Source
 
