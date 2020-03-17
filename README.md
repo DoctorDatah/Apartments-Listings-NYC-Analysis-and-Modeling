@@ -158,7 +158,7 @@ Ensemble model with lasso, decision tree, SVM, Random forest. Perfroms better fr
 
 So far, we have modeled the relationship between the Zip-codes and number of bedrooms, baths and flexes with rental price. We had minimal features to correctly examine the complex real-estate valuation. Low RMSE of the model could possibly because of omitted variable bias i.e. there are dozens of other feature that are significant in rental price but are not present in data.
 
-However, Fortunately, however, if we were to add more features and data to the model then we can use the exact same framework to expand our analysis.
+However, Fortunately, if we were to add more features and data to the model then we can use the exact same framework to expand our analysis.
 
 
 
