@@ -27,7 +27,7 @@ def fit_transform(X,X_train,X_test,on_):
     Combine both results 
     Returns: ndarray | X_train_prepared and X_test_preapared
     ********************************
-    Function can be improved futher!
+    Function can be improved further!
     ********************************
 
     """
