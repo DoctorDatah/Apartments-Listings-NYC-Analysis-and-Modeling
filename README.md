@@ -130,10 +130,26 @@ Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhatta
 
 |  Model | Parameters | RMSE  |  Feature |  Details |
 |---|---|---|---|---|
-| LassoReg  |   alpha=0.1|2344  |All Ordinal Categories Except Zip   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| LassoReg  |   alpha=0.1|2344  |All   | - |
+| LassoReg  |   alpha=0.16|2343  |All   | RandomSearchCV  |
+| LassoReg  |   alpha=0.16|2281  |Only Beds and Zips   | - |
+| LassoReg  |   alpha=0.73|2238  | Poly Degree 2  | RandomSearchCV  |
+| LassoReg  |   alpha=0.38|2769  | Poly Degree 5  | RandomSearchCV  |
+| LassoReg  |   alpha=0.004|2222  | Poly Degree 3  | RandomSearchCV  |
+|Decision Tree   |   mdepth=40, mfeature=4|2629  | Only Beds and Zips  | -  |
+|Decision Tree   |   mdepth=50, mfeature=15|2273  | Only Beds and Zips  | -  |
+|Decision Tree   |   mdepth=40, mfeature=4|2510  | All  | -  |
+|Decision Tree   |   mdepth=100, mfeature=11|2347  | All  | -  |
+|SVM   |epsilon=1.5,C=1   | 3037  | All  | -  |
+|SVM   |epsilon=1.5,C=31   | 2609  | All  | RandomSearchCV  |
+|Ensemble -Voting   | Best parameters from above  |  2189 | All  | SCM,DTree, Lasso, Random Forest   |
+|Ensemble -Voting   | Best parameters from above  |  2189 | Only Beds and Zips  | SCM,DTree, Lasso, Random Forest   |
+|Ada-Boost   | On Ensemble -Voting   | 2482  | All  | -  |
+|Ada-Boost   | On lasso | 3658  | All  | -  |
+|Ensemble -Voting   | Best parameters from above  |  2236 | Reduced Dim -PCA  | SCM,DTree, Lasso, Random Forest   |
+|Ada-Boost   | On Ensemble -Voting | 2230  | Reduced Dim -PCA   | -  |
+|Ensemble -Voting   | Best parameters from above  |  2444 | Without zip-code  | SCM,DTree, Lasso, Random Forest   |
+|Ada-Boost   | On Ensemble -Voting | 2527  | Without zip-code    | -  |
+
 
 **IN PROGRESS!** 
