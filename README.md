@@ -63,6 +63,22 @@ For now we should proceed, even though it could add some hidden bias in the mode
  
 
 ## Exploratory Data Analysis 
+
+### Probability Distribution function
+Rent seems to be right skewed.
+
+<img src="images/rent_pdf.png" width=50%> 
+
+Most of the data lies with 94% quantile
+
+<img src="images/rent_pdf2.png" width=50%> 
+
+We do not need to transform rent as it a *label variable*. 
+
+<img src="images/beds_pdf1.png" width=50%> 
+
+Number of Beds, baths, and flexes are ordinal categorical features. Zip-codes are Nominal categorical feature.
+
 #### Top 10 places with most listings 
 <img src="images/most_listings_top_10.jpg" width=50%>
 
@@ -109,5 +125,13 @@ Midtown Manhattan and Upper East Side are expensive as compare to Upper Manhatta
 - Midtown is 3.9% Expensive then Upper East Side
 - Down down in 4.2% Cheaper then Mid town on Average
 - Upper Manhattan 4.2% cheaper then Down Town Manhattan
+
+## Modeling 
+
+|  f | d |  sdf | df  |  df |
+|---|---|---|---|---|
+|  d |   d|   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 **IN PROGRESS!** 
