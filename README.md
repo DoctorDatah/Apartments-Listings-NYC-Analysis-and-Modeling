@@ -165,4 +165,4 @@ However, Fortunately, however, if we were to add more features and data to the m
 Some possible future extensions could be utilizing the data from various APIs for restaurants or bars available in the area, walk-ability, transportation proximity measures. That could be signification driver of prices in the areas. 
 
 
-**END* 
+**END** 
