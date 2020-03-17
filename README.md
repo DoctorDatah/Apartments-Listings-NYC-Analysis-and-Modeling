@@ -84,7 +84,7 @@ Number of Beds, baths, and flexes are ordinal categorical features. Zip-codes ar
 #### Top 10 places with most listings 
 <img src="images/most_listings_top_10.jpg" width=50%>
 
-Hell's kitchen, Midtown Manhattan has most listings are in Manhattan
+Hell's kitchen, Midtown Manhattan has most listings.
 
 #### Mean rent at the neighborhoods
 Bronx and queens have some neighborhoods with cheap rental. However, inquires from a few Newyorkers and searching online I found these areas have high crime rate. 
@@ -162,7 +162,7 @@ So far, we have modeled the relationship between the Zip-codes and number of bed
 
 However, Fortunately, if we were to add more features and data to the model then we can use the exact same framework to expand our analysis.
 
-
+For my decision, I am looking forward to Hoboken City neighborhoods. As they are not as expensive as NYC, easily commutable and nice.
 
 Some possible future extensions could be utilizing the data from various APIs for restaurants or bars available in the area, walk-ability, transportation proximity measures. That could be signification driver of prices in the areas. 
 
