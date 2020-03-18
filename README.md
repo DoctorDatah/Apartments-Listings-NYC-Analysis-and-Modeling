@@ -1,7 +1,5 @@
 # Apartments-Listings-NYC-Analysis-and-Modeling
 
-**IN PROGRESS!** 
-
 <img src="images/apartment-search.png" width=100%>
 
 
