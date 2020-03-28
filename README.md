@@ -77,7 +77,6 @@ We do not need to transform rent as it a *label variable*.
 
 <img src="images/beds_pdf1.png" width=50%> 
 
-Number of Beds, baths, and flexes are ordinal categorical features. Zip-codes are Nominal categorical feature.
 
 #### Top 10 places with most listings 
 <img src="images/most_listings_top_10.jpg" width=50%>
